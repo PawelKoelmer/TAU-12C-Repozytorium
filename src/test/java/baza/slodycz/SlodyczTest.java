@@ -32,9 +32,39 @@ public class SlodyczTest {
     }
 
     @Test
-    public void getListOfObjectsFromDatabaseNotNull(){
+    public void getListOfObjectsFromDatabaseNotNullTest(){
         BazaSlodyczy baza = new BazaSlodyczy();
+        Slodycz slodycz = new Slodycz(1,"Czekolada","Słodka");
         assertNotNull(baza.getAll());
+    }
+
+    @Test(expected = IndexOutOfBoundsException.class)
+    public void getSingleObjectTest(){
+        BazaSlodyczy baza = new BazaSlodyczy();
+        baza.getSingle(0);
+    }
+
+    @Test
+    public void renameSlodyczTest(){
+        BazaSlodyczy baza = new BazaSlodyczy();
+        Slodycz slodycz = new Slodycz(1,"Czekolada","Słodka");
+        baza.insert(slodycz);
+        baza.renameSlodycz(0,"Baton");
+        assertEquals("Baton",baza.getSingle(0).getNazwa());
+    }
+
+    @Test(expected = IndexOutOfBoundsException.class)
+    public void deletesingleSlodyczTest(){
+        BazaSlodyczy baza = new BazaSlodyczy();
+        baza.deleteSlodycz(0);
+    }
+
+    @Test()
+    public void deleteSlodyczTest(){
+        BazaSlodyczy baza = new BazaSlodyczy();
+        Slodycz slodycz = new Slodycz(1,"Czekolada","Słodka");
+        baza.insert(slodycz);
+        baza.deleteSlodycz(0);
     }
 
 

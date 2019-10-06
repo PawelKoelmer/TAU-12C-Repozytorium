@@ -5,7 +5,7 @@ import java.util.List;
 
 public class BazaSlodyczy {
 
-    ArrayList<Slodycz> slodycze = new ArrayList();
+    private ArrayList<Slodycz> slodycze = new ArrayList();
     Slodycz slodycz;
 
     public void insert(Slodycz slodycz) {
@@ -21,5 +21,14 @@ public class BazaSlodyczy {
         slodycz = slodycze.get(id);
 
         return slodycz;
+    }
+
+    public void renameSlodycz(int id, String name) {
+        slodycz =slodycze.get(id);
+        slodycz.setNazwa(name);
+    }
+
+    public void deleteSlodycz(int id) {
+        slodycze.remove(id);
     }
 }
