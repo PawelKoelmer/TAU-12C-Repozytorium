@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0e29a1d-7609-4176-9c63-5f9cc0773c2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/baza/slodycz/BazaSlodyczy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baza/slodycz/Slodycz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/baza/slodycze/Slodycz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baza/slodycze/SlodyczeBazaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baza/slodycz/BazaSlodyczy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baza/slodycz/BazaSlodyczy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/baza/slodycz/BazaSlodyczy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/baza/slodycz/BazaSlodyczy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/baza/slodycz/Slodycz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/baza/slodycz/Slodycz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/baza/slodycz/SlodyczTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/baza/slodycz/SlodyczTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+            <state>
+              <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -36,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/baza/slodycz/Slodycz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#147#148#0" expanded="true" />
                 <element signature="e#172#173#0" expanded="true" />
@@ -59,12 +59,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="238">
+              <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +73,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/baza/slodycz/BazaSlodyczy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="340">
+              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,6 +95,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>compiler</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -100,9 +112,18 @@
         <option value="$PROJECT_DIR$/src/test/java/baza/slodycze/SlodyczeBazaTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/allTest/allTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/runner/testRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/baza/slodycz/Slodycz.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/baza/slodycz/BazaSlodyczy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczTest.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -170,21 +191,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="baza" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SlodyczeApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TAU-12C-Repozytorium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="baza" type="462c0819:PsiDirectoryNode" />
               <item name="slodycz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SlodyczeApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TAU-12C-Repozytorium" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,16 +229,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SlodyczTest.createSingleObjectTest">
-    <configuration name="testRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.runner.testRunner" />
+  <component name="RunManager" selected="JUnit.SlodyczTest.getListOfObjectsFromDatabaseNotNull">
+    <configuration name="SlodyczTest.addObjectToDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TAU-12C-Repozytorium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.runner.*" />
+          <option name="PATTERN" value="baza.slodycz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="baza.slodycz" />
+      <option name="MAIN_CLASS_NAME" value="baza.slodycz.SlodyczTest" />
+      <option name="METHOD_NAME" value="addObjectToDatabase" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -284,12 +294,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SlodyczTest.getListOfObjectsFromDatabaseNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TAU-12C-Repozytorium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baza.slodycz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="baza.slodycz" />
+      <option name="MAIN_CLASS_NAME" value="baza.slodycz.SlodyczTest" />
+      <option name="METHOD_NAME" value="getListOfObjectsFromDatabaseNotNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SlodyczTest.getListOfObjectsFromDatabaseNotNull" />
+        <item itemvalue="JUnit.SlodyczTest.addObjectToDatabase" />
         <item itemvalue="JUnit.SlodyczTest.createSingleObjectTest" />
         <item itemvalue="JUnit.SlodyczTest.createObject" />
         <item itemvalue="JUnit.SlodyczTest.createObjectTest" />
-        <item itemvalue="Application.testRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -303,20 +330,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570349806999</updated>
-      <workItem from="1570349813389" duration="2550000" />
+      <workItem from="1570349813389" duration="5848000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SlodyczTest_createObjectTest - 2019.10.06 at 11h 08m 48s.xml">
-      <configuration name="SlodyczTest.createObjectTest" configurationId="JUnit" />
+    <history-entry file="SlodyczTest_createSingleObjectTest - 2019.10.06 at 11h 16m 23s.xml">
+      <configuration name="SlodyczTest.createSingleObjectTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SlodyczTest_createObjectTest - 2019.10.06 at 11h 11m 38s.xml">
-      <configuration name="SlodyczTest.createObjectTest" configurationId="JUnit" />
+    <history-entry file="SlodyczTest_createSingleObjectTest - 2019.10.06 at 11h 18m 05s.xml">
+      <configuration name="SlodyczTest.createSingleObjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SlodyczTest_createSingleObjectTest - 2019.10.06 at 11h 41m 51s.xml">
+      <configuration name="SlodyczTest.createSingleObjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SlodyczTest_createSingleObjectTest - 2019.10.06 at 11h 44m 27s.xml">
+      <configuration name="SlodyczTest.createSingleObjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SlodyczTest_createSingleObjectTest - 2019.10.06 at 11h 45m 46s.xml">
+      <configuration name="SlodyczTest.createSingleObjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SlodyczTest_createSingleObjectTest - 2019.10.06 at 11h 48m 09s.xml">
+      <configuration name="SlodyczTest.createSingleObjectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SlodyczTest_addObjectToDatabase - 2019.10.06 at 11h 52m 28s.xml">
+      <configuration name="SlodyczTest.addObjectToDatabase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SlodyczTest_getListOfObjectsFromDatabaseNotNull - 2019.10.06 at 11h 56m 27s.xml">
+      <configuration name="SlodyczTest.getListOfObjectsFromDatabaseNotNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SlodyczTest_addObjectToDatabase - 2019.10.06 at 12h 06m 19s.xml">
+      <configuration name="SlodyczTest.addObjectToDatabase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SlodyczTest_addObjectToDatabase - 2019.10.06 at 12h 07m 50s.xml">
+      <configuration name="SlodyczTest.addObjectToDatabase" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2550000" />
+    <option name="totallyTimeSpent" value="5848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -329,7 +380,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
@@ -337,7 +388,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -352,18 +403,42 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.32936078" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/baza/slodycze/SlodyczeBaza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -388,10 +463,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1622" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="304" column="8" selection-start-line="304" selection-start-column="8" selection-end-line="304" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/baza/slodycz/Slodycz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#147#148#0" expanded="true" />
             <element signature="e#172#173#0" expanded="true" />
@@ -411,19 +514,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/baza/slodycz/BazaSlodyczy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="340">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="238">
+          <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
           </folding>
         </state>
       </provider>
