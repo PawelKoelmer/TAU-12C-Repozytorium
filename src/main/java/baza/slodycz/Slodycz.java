@@ -12,6 +12,10 @@ public class Slodycz {
         this.opis = opis;
     }
 
+    public Slodycz() {
+
+    }
+
     public int getId() {
         return id;
     }

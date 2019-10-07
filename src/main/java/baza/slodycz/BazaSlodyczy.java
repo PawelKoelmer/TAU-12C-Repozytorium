@@ -31,4 +31,14 @@ public class BazaSlodyczy {
     public void deleteSlodycz(int id) {
         slodycze.remove(id);
     }
+
+    public void changeId(int id, int newid) {
+        slodycz = slodycze.get(id);
+        slodycz.setId(newid);
+    }
+
+    public void changeDescription(int i, String newOpis) {
+        slodycz = slodycze.get(i);
+        slodycz.setOpis(newOpis);
+    }
 }
