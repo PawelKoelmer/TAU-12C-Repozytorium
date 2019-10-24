@@ -3,42 +3,65 @@ package baza.slodycz;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BazaSlodyczy {
+public class BazaSlodyczy implements BazaSlodyczyService{
 
-    private ArrayList<Slodycz> slodycze = new ArrayList();
+
+    private List<Slodycz> slodycze = new ArrayList();
     Slodycz slodycz;
 
-    public void insert(Slodycz slodycz) {
-            slodycze.add(slodycz);
-    }
-
     public List<Slodycz> getAll() {
+        for(Slodycz x : slodycze){
+            x.setReadTimestamp();
+        }
         return slodycze;
     }
 
+    @Override
     public Slodycz getSingle(int id) {
+            for (Slodycz x: slodycze) {
+                if(x.getId() == id){
+                    x.setReadTimestamp();
+                    return x;
+                }
+            }
+        return null;
 
-        slodycz = slodycze.get(id);
 
-        return slodycz;
     }
 
-    public void renameSlodycz(int id, String name) {
-        slodycz =slodycze.get(id);
+    @Override
+    public void insert(Slodycz slodycz) {
+        slodycz.setCreateTimestamp();
+        slodycze.add(slodycz);
+
+    }
+    @Override
+    public void rename(int id, String name) {
+        slodycz = getSingle(id);
+        slodycz.setUpdateTimestamp();
         slodycz.setNazwa(name);
     }
 
-    public void deleteSlodycz(int id) {
-        slodycze.remove(id);
+    @Override
+    public void delete(int id) {
+        for (Slodycz x: slodycze) {
+            if(x.getId() == id){
+                slodycz = x;
+                break;
+            }
+        }
+        slodycze.remove(slodycz);
     }
-
+    @Override
     public void changeId(int id, int newid) {
-        slodycz = slodycze.get(id);
+        slodycz = getSingle(id);
+        slodycz.setUpdateTimestamp();
         slodycz.setId(newid);
     }
-
-    public void changeDescription(int i, String newOpis) {
-        slodycz = slodycze.get(i);
+    @Override
+    public void changeDescription(int id, String newOpis) {
+        slodycz = getSingle(id);
+        slodycz.setUpdateTimestamp();
         slodycz.setOpis(newOpis);
     }
 }

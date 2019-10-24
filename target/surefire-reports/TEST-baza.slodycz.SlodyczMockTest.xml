@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="18" failures="0" name="baza.slodycz.SlodyczTest" time="0.002" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="baza.slodycz.SlodyczMockTest" time="0.563" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="13+33"/>
@@ -60,22 +60,7 @@
     <property name="sun.stdout.encoding" value="cp852"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="baza.slodycz.SlodyczTest" name="renameNullOpisTest" time="0"/>
-  <testcase classname="baza.slodycz.SlodyczTest" name="changeSlodyczAssertDescriptionWithNoObjectTest" time="0"/>
-  <testcase classname="baza.slodycz.SlodyczTest" name="deleteNullSlodyczTest" time="0"/>
-  <testcase classname="baza.slodycz.SlodyczTest" name="createSingleObjectTest" time="0"/>
-  <testcase classname="baza.slodycz.SlodyczTest" name="getSingleObjectTest" time="0"/>
-  <testcase classname="baza.slodycz.SlodyczTest" name="createObjectTest" time="0"/>
-  <testcase classname="baza.slodycz.SlodyczTest" name="createSingleSlodyczTest" time="0"/>
-  <testcase classname="baza.slodycz.SlodyczTest" name="changeSlodyczAssertIdTest" time="0"/>
-  <testcase classname="baza.slodycz.SlodyczTest" name="changeSlodyczAssertNameWithNoObjectTest" time="0"/>
-  <testcase classname="baza.slodycz.SlodyczTest" name="deleteAssertTest" time="0"/>
-  <testcase classname="baza.slodycz.SlodyczTest" name="addEmptyObjectToDatabase" time="0"/>
-  <testcase classname="baza.slodycz.SlodyczTest" name="addObjectToDatabase" time="0.001"/>
-  <testcase classname="baza.slodycz.SlodyczTest" name="renameAssertNazwaTest" time="0"/>
-  <testcase classname="baza.slodycz.SlodyczTest" name="changeSlodyczAssertIdWithNoObjectTest" time="0"/>
-  <testcase classname="baza.slodycz.SlodyczTest" name="renameAssertOpisTest" time="0.001"/>
-  <testcase classname="baza.slodycz.SlodyczTest" name="deleteTest" time="0"/>
-  <testcase classname="baza.slodycz.SlodyczTest" name="renameNazwaNullTest" time="0"/>
-  <testcase classname="baza.slodycz.SlodyczTest" name="getListOfObjectsFromDatabaseNotNullTest" time="0"/>
+  <testcase classname="baza.slodycz.SlodyczMockTest" name="checkLastReadTime" time="0.496"/>
+  <testcase classname="baza.slodycz.SlodyczMockTest" name="insert_slodycz_with_timestamp_test" time="0.064"/>
+  <testcase classname="baza.slodycz.SlodyczMockTest" name="checkTimeofUpdateTest" time="0.003"/>
 </testsuite>
