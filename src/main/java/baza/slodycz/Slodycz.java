@@ -1,10 +1,20 @@
 package baza.slodycz;
 
+import java.time.Clock;
+import java.time.LocalDateTime;
+
 public class Slodycz {
 
     private int id;
     private String nazwa;
     private String opis;
+    private Clock clock = Clock.systemDefaultZone();
+
+    private LocalDateTime createTimestamp;
+    private LocalDateTime updateTimestamp;
+    private LocalDateTime readTimestamp;
+
+
 
     public Slodycz(int i, String nazwa, String opis) {
         this.id =i;
@@ -38,5 +48,29 @@ public class Slodycz {
 
     public void setOpis(String opis) {
         this.opis = opis;
+    }
+
+    public LocalDateTime getCreateTimestamp() {
+        return createTimestamp;
+    }
+
+    public void setCreateTimestamp() {
+        this.createTimestamp = LocalDateTime.now(clock);
+    }
+
+    public LocalDateTime getUpdateTimestamp() {
+        return updateTimestamp;
+    }
+
+    public void setUpdateTimestamp() {
+        this.updateTimestamp = LocalDateTime.now(clock);
+    }
+
+    public LocalDateTime getReadTimestamp() {
+        return readTimestamp;
+    }
+
+    public void setReadTimestamp() {
+        this.readTimestamp = LocalDateTime.now(clock);
     }
 }

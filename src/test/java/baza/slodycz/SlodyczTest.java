@@ -1,5 +1,6 @@
 package baza.slodycz;
 
+import junit.framework.AssertionFailedError;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
@@ -8,7 +9,7 @@ import static junit.framework.TestCase.*;
 
 @RunWith(JUnit4.class)
 public class SlodyczTest {
-//Rozbić wszystko na minimumm TDD - każdą możliwość w teście - NULL i inne xceptiony -  wyjdzie około 40 testów
+
     @Test
     public void createObjectTest(){
         assertNotNull(new BazaSlodyczy());
@@ -42,7 +43,7 @@ public class SlodyczTest {
         BazaSlodyczy baza = new BazaSlodyczy();
         Slodycz slodycz = new Slodycz(1,"Czekolada","Słodka");
         baza.insert(slodycz);
-        assertEquals(1,baza.getSingle(0).getId());
+        assertEquals(1,baza.getSingle(1).getId());
     }
 
     @Test
@@ -52,94 +53,94 @@ public class SlodyczTest {
         assertNotNull(baza.getAll());
     }
 
-    @Test(expected = IndexOutOfBoundsException.class)
+    @Test
     public void getSingleObjectTest(){
         BazaSlodyczy baza = new BazaSlodyczy();
-        baza.getSingle(0);
+        baza.getSingle(1);
     }
 
-    @Test
-    public void renameSlodyczNazwaNullTest(){
+    @Test(expected = NullPointerException.class)
+    public void renameNazwaNullTest(){
         BazaSlodyczy baza = new BazaSlodyczy();
         Slodycz slodycz = new Slodycz();
         baza.insert(slodycz);
-        baza.renameSlodycz(0,"Baton");
+        baza.rename(1,"Baton");
     }
-    @Test
-    public void renameSlodyczNullOpisTest(){
+    @Test(expected = NullPointerException.class)
+    public void renameNullOpisTest(){
         BazaSlodyczy baza = new BazaSlodyczy();
         Slodycz slodycz = new Slodycz();
         baza.insert(slodycz);
-        baza.renameSlodycz(0,"Baton");
+        baza.rename(1,"Baton");
     }
 
-    @Test(expected = IndexOutOfBoundsException.class)
+    @Test(expected = NullPointerException.class)
     public void changeSlodyczAssertIdWithNoObjectTest(){
         BazaSlodyczy baza = new BazaSlodyczy();
-        baza.changeId(0,99);
+        baza.changeId(1,99);
         assertEquals(99,baza.getSingle(0).getId());
     }
-    @Test(expected = IndexOutOfBoundsException.class)
+    @Test(expected = NullPointerException.class)
     public void changeSlodyczAssertNameWithNoObjectTest(){
         BazaSlodyczy baza = new BazaSlodyczy();
-        baza.renameSlodycz(0,"Baton");
+        baza.rename(1,"Baton");
     }
-    @Test(expected = IndexOutOfBoundsException.class)
+    @Test(expected = NullPointerException.class)
     public void changeSlodyczAssertDescriptionWithNoObjectTest(){
         BazaSlodyczy baza = new BazaSlodyczy();
-        baza.changeDescription(0,"Baton");
+        baza.changeDescription(1,"Baton");
     }
     @Test
     public void changeSlodyczAssertIdTest(){
         BazaSlodyczy baza = new BazaSlodyczy();
         Slodycz slodycz = new Slodycz(1,"Czekolada","Słodka");
         baza.insert(slodycz);
-        baza.changeId(0,99);
-        assertEquals(99,baza.getSingle(0).getId());
+        baza.changeId(1,99);
+        assertEquals(99,baza.getSingle(99).getId());
     }
 
     @Test
-    public void renameSlodyczAssertNazwaTest(){
+    public void renameAssertNazwaTest(){
         BazaSlodyczy baza = new BazaSlodyczy();
         Slodycz slodycz = new Slodycz(1,"Czekolada","Słodka");
         baza.insert(slodycz);
-        baza.renameSlodycz(0,"Baton");
-        assertEquals("Baton",baza.getSingle(0).getNazwa());
+        baza.rename(1,"Baton");
+        assertEquals("Baton",baza.getSingle(1).getNazwa());
     }
 
     @Test
-    public void renameSlodyczAssertOpisTest(){
+    public void renameAssertOpisTest(){
         BazaSlodyczy baza = new BazaSlodyczy();
         Slodycz slodycz = new Slodycz(1,"Czekolada","Słodka");
         baza.insert(slodycz);
-        baza.renameSlodycz(0,"Baton");
-        assertEquals("Baton",baza.getSingle(0).getNazwa());
+        baza.rename(1,"Baton");
+        assertEquals("Baton",baza.getSingle(1).getNazwa());
     }
 
-    @Test(expected = IndexOutOfBoundsException.class)
-    public void deletesingleSlodyczTest(){
+    @Test
+    public void deleteNullSlodyczTest(){
         BazaSlodyczy baza = new BazaSlodyczy();
-        baza.deleteSlodycz(0);
+        baza.delete(1);
     }
 
-    @Test(expected = IndexOutOfBoundsException.class)
-    public void deleteSlodyczTest(){
+    @Test
+    public void deleteTest(){
         BazaSlodyczy baza = new BazaSlodyczy();
         Slodycz slodycz = new Slodycz(1,"Czekolada","Słodka");
         Slodycz slodycz1 = new Slodycz(2,"Czekolada","Słodka");
         baza.insert(slodycz);
         baza.insert(slodycz1);
-        baza.deleteSlodycz(1);
+        baza.delete(1);
         assertNull(baza.getSingle(1));
 
     }
-    @Test(expected = IndexOutOfBoundsException.class)
-    public void deleteSlodyczAssertTest(){
+    @Test
+    public void deleteAssertTest(){
         BazaSlodyczy baza = new BazaSlodyczy();
         Slodycz slodycz = new Slodycz(1,"Czekolada","Słodka");
         baza.insert(slodycz);
-        baza.deleteSlodycz(0);
-        assertNull(baza.getSingle(0));
+        baza.delete(1);
+        assertEquals(null,baza.getSingle(1));
     }
 
 
