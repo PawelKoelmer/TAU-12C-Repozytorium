@@ -46,19 +46,6 @@ public class SlodyczTest {
         assertEquals(1,baza.getSingle(1).getId());
     }
 
-    @Test
-    public void getListOfObjectsFromDatabaseNotNullTest(){
-        BazaSlodyczy baza = new BazaSlodyczy();
-        Slodycz slodycz = new Slodycz(1,"Czekolada","Słodka");
-        assertNotNull(baza.getAll());
-    }
-
-    @Test
-    public void getSingleObjectTest(){
-        BazaSlodyczy baza = new BazaSlodyczy();
-        baza.getSingle(1);
-    }
-
     @Test(expected = NullPointerException.class)
     public void renameNazwaNullTest(){
         BazaSlodyczy baza = new BazaSlodyczy();
@@ -122,27 +109,4 @@ public class SlodyczTest {
         BazaSlodyczy baza = new BazaSlodyczy();
         baza.delete(1);
     }
-
-    @Test
-    public void deleteTest(){
-        BazaSlodyczy baza = new BazaSlodyczy();
-        Slodycz slodycz = new Slodycz(1,"Czekolada","Słodka");
-        Slodycz slodycz1 = new Slodycz(2,"Czekolada","Słodka");
-        baza.insert(slodycz);
-        baza.insert(slodycz1);
-        baza.delete(1);
-        assertNull(baza.getSingle(1));
-
-    }
-    @Test
-    public void deleteAssertTest(){
-        BazaSlodyczy baza = new BazaSlodyczy();
-        Slodycz slodycz = new Slodycz(1,"Czekolada","Słodka");
-        baza.insert(slodycz);
-        baza.delete(1);
-        assertEquals(null,baza.getSingle(1));
-    }
-
-
-
 }

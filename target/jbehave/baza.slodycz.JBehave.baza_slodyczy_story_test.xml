@@ -1,0 +1,30 @@
+<story path="baza/slodycz/JBehave/baza_slodyczy_story_test.story" title="">
+<scenario keyword="Scenario:" title="Find candy by id">
+<step outcome="successful">Given an id equals <parameter>2</parameter></step>
+<step outcome="successful">When the item with id <parameter>2</parameter> is added</step>
+<step outcome="successful">Then check is in list with id equals <parameter>2</parameter></step>
+</scenario>
+<scenario keyword="Scenario:" title="Find candy by Name">
+<step outcome="successful">Given an Name equals <parameter>Czekolada</parameter></step>
+<step outcome="successful">When the item with name <parameter>Czekolada</parameter> is added</step>
+<step outcome="successful">Then check is in list with name <parameter>Czekolada</parameter></step>
+</scenario>
+<scenario keyword="Scenario:" title="Find candy by Description">
+<step outcome="successful">Given an Description equals <parameter>Slodka</parameter></step>
+<step outcome="successful">When the item with description <parameter>Slodka</parameter> is added</step>
+<step outcome="successful">Then check is in list with description <parameter>Slodka</parameter></step>
+</scenario>
+<scenario keyword="Scenario:" title="Add items to list and delete it">
+<step outcome="successful">Given Create database:
+<parameter><parameters>
+<names><name>id</name><name>name</name><name>description</name></names>
+<values><value>1</value><value>Czekolada</value><value>Slodka</value></values>
+<values><value>2</value><value>Baton</value><value>Pawelek</value></values>
+<values><value>3</value><value>Lizak</value><value>CzupaCzups</value></values>
+</parameters>
+</parameter></step>
+<step outcome="successful">When <parameter>3</parameter> items in database</step>
+<step outcome="successful">And Items are deleted</step>
+<step outcome="successful">Then table is empty</step>
+</scenario>
+</story>

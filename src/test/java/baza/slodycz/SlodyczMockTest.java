@@ -18,7 +18,6 @@ public class SlodyczMockTest {
 
     private static final LocalDateTime TIME = LocalDateTime.of(2019,10,22,15,10,0);
 
-
     @InjectMocks
     private Slodycz slodycz1;
 

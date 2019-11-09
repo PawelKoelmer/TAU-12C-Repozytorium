@@ -1,26 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0e29a1d-7609-4176-9c63-5f9cc0773c2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/baza/slodycz/BazaSlodyczyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczMockTest.java" afterDir="false" />
+    <list default="true" id="1ffe4694-ca50-4bbc-b9a6-745ab2711116" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__classworlds_classworlds_1_1_alpha_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_jbehave_junit_runner_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_11_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_core_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_expressions_7_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_java_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_junit_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_datatable_1_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_datatable_dependencies_1_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_gherkin_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_tag_expressions_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_2_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_manager_2_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_2_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_2_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_registry_2_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_profile_2_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_project_2_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_2_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_2_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_1_0_beta_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_archiver_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_container_default_1_0_alpha_9_stable_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_io_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jbehave_jbehave_core_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jbehave_jbehave_gherkin_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jbehave_jbehave_maven_plugin_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlodyczeApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baza/slodycz/CucumberRunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baza/slodycz/CucumberStepsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baza/slodycz/JBehave/BazaSlodyczyStoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baza/slodycz/JBehave/BazaStepsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/baza/slodycz/JBehave/baza_slodyczy_story_test.story" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/baza_slodyczy.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/baza/slodycz/BazaSlodyczy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baza/slodycz/BazaSlodyczy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/baza/slodycz/Slodycz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baza/slodycz/Slodycz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczMockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczMockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/SlodyczeApp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/SlodyczeApp-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/TAU-12C-Repozytorium.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/baza/slodycz/BazaSlodyczy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/baza/slodycz/BazaSlodyczy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baza/slodycz/Slodycz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/baza/slodycz/Slodycz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-baza.slodycz.SlodyczMockTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-baza.slodycz.SlodyczMockTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-baza.slodycz.SlodyczTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-baza.slodycz.SlodyczTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/baza.slodycz.SlodyczMockTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/baza.slodycz.SlodyczMockTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/baza.slodycz.SlodyczTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/baza.slodycz.SlodyczTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/TAU-12C-Repozytorium.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/baza/slodycz/SlodyczMockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/baza/slodycz/SlodyczMockTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/baza/slodycz/SlodyczTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/baza/slodycz/SlodyczTest.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,113 +96,94 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
-              <caret line="132" column="23" lean-forward="true" selection-start-line="132" selection-start-column="23" selection-end-line="132" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="435">
+              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/baza/slodycz/JBehave/baza_slodyczy_story_test.story">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/baza/slodycz/JBehave/BazaStepsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="569">
+              <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/baza/slodycz/JBehave/BazaSlodyczyStoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1339#1340#0" expanded="true" />
+                <element signature="e#1366#1367#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczMockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="79" column="23" lean-forward="true" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/baza/slodycz/BazaSlodyczy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/baza/slodycz/BazaSlodyczyService.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/baza/slodycz/CucumberRunnerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/baza/slodycz/Slodycz.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/baza_slodyczy.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-585">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#606#607#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-                <element signature="e#782#783#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#1082#1083#0" expanded="true" />
-                <element signature="e#1120#1121#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
-                <element signature="e#1243#1244#0" expanded="true" />
-                <element signature="e#1292#1293#0" expanded="true" />
-                <element signature="e#1330#1331#0" expanded="true" />
-                <element signature="e#1399#1400#0" expanded="true" />
-                <element signature="e#1453#1454#0" expanded="true" />
-                <element signature="e#1500#1501#0" expanded="true" />
-                <element signature="e#1536#1537#0" expanded="true" />
-                <element signature="e#1601#1602#0" expanded="true" />
-                <element signature="e#1651#1652#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="220">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>compiler</find>
-      <find>deleteSlodycz</find>
-      <find>LocalDateTim</find>
+      <find>org.</find>
+      <find>apache</find>
     </findStrings>
-    <replaceStrings>
-      <replace>delete</replace>
-      <replace>LocalDateTime</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -150,20 +191,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/SlodyczeBaza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/baza/slodycze/SlodyczeBaza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/baza/slodycze/Slodycz.java" />
-        <option value="$PROJECT_DIR$/src/test/java/baza/slodycze/SlodyczeBazaTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/allTest/allTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/runner/testRunner.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczMockTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/baza/slodycz/BazaSlodyczyService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataBaseHelpers/TimeStampCollection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/baza/slodycz/Slodycz.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/bazaSlodyczy.story" />
+        <option value="$PROJECT_DIR$/src/test/java/baza/slodycz/BazaTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/baza/slodycz/JBehave/BazaTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/baza/slodycz/JBehave/BazaSlodyczy.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/baza_slodyczy.feature" />
         <option value="$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/baza/slodycz/BazaSlodyczy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/baza/slodycz/CucumberStepsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/baza/slodycz/JBehave/baza_slodyczy_story.story" />
+        <option value="$PROJECT_DIR$/src/test/java/baza/slodycz/JBehave/BazaStepsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/baza/slodycz/JBehave/BazaSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczMockTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/baza/slodycz/JBehave/BazaSlodyczyStory.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -174,9 +215,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="183" />
+    <option name="y" value="37" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -185,7 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,27 +242,6 @@
               <item name="SlodyczeApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="TAU-12C-Repozytorium" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SlodyczeApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TAU-12C-Repozytorium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SlodyczeApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TAU-12C-Repozytorium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="slodycz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SlodyczeApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TAU-12C-Repozytorium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -239,18 +258,49 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="slodycz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SlodyczeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAU-12C-Repozytorium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="slodycz" type="462c0819:PsiDirectoryNode" />
+              <item name="JBehave" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SlodyczeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAU-12C-Repozytorium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SlodyczeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAU-12C-Repozytorium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="JBehave" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/Program Files/Java/jdk-13.0.1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -259,13 +309,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="coverage" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="baza.slodycz" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\TAU SEM VII\TAU-12C-Repozytorium\src\test\resources\baza\slodycz\JBehave" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -280,9 +331,69 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SlodyczMockTest.checkLastReadTimeForAll">
-    <configuration name="SlodyczMockTest.checkLastReadTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TAU-12C-Repozytorium" />
+  <component name="RunManager" selected="JUnit.BazaSlodyczyStoryTest">
+    <configuration name="BazaSlodyczyStoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SlodyczeApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baza.slodycz.JBehave.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="baza.slodycz.JBehave" />
+      <option name="MAIN_CLASS_NAME" value="baza.slodycz.JBehave.BazaSlodyczyStoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BazaSlodyczyStory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SlodyczeApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baza.slodycz.JBehave.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="baza.slodycz.JBehave" />
+      <option name="MAIN_CLASS_NAME" value="baza.slodycz.JBehave.BazaSlodyczyStory" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BazaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SlodyczeApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baza.slodycz.JBehave.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="baza.slodycz.JBehave" />
+      <option name="MAIN_CLASS_NAME" value="baza.slodycz.JBehave.BazaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CucumberRunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SlodyczeApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baza.slodycz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="baza.slodycz" />
+      <option name="MAIN_CLASS_NAME" value="baza.slodycz.CucumberRunnerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlodyczMockTest.insert_slodycz_with_timestamp_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SlodyczeApp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="baza.slodycz.*" />
@@ -291,71 +402,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="baza.slodycz" />
       <option name="MAIN_CLASS_NAME" value="baza.slodycz.SlodyczMockTest" />
-      <option name="METHOD_NAME" value="checkLastReadTime" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SlodyczMockTest.checkLastReadTimeForAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TAU-12C-Repozytorium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baza.slodycz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="baza.slodycz" />
-      <option name="MAIN_CLASS_NAME" value="baza.slodycz.SlodyczMockTest" />
-      <option name="METHOD_NAME" value="checkLastReadTimeForAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SlodyczMockTest.checkTimeofUpdateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TAU-12C-Repozytorium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baza.slodycz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="baza.slodycz" />
-      <option name="MAIN_CLASS_NAME" value="baza.slodycz.SlodyczMockTest" />
-      <option name="METHOD_NAME" value="checkTimeofUpdateTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SlodyczTest.deleteAssertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TAU-12C-Repozytorium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baza.slodycz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="baza.slodycz" />
-      <option name="MAIN_CLASS_NAME" value="baza.slodycz.SlodyczTest" />
-      <option name="METHOD_NAME" value="deleteAssertTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SlodyczTest.renameNullOpisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TAU-12C-Repozytorium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baza.slodycz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="baza.slodycz" />
-      <option name="MAIN_CLASS_NAME" value="baza.slodycz.SlodyczTest" />
-      <option name="METHOD_NAME" value="renameNullOpisTest" />
+      <option name="METHOD_NAME" value="insert_slodycz_with_timestamp_test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -363,11 +410,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SlodyczMockTest.checkLastReadTimeForAll" />
-        <item itemvalue="JUnit.SlodyczMockTest.checkLastReadTime" />
-        <item itemvalue="JUnit.SlodyczMockTest.checkTimeofUpdateTest" />
-        <item itemvalue="JUnit.SlodyczTest.deleteAssertTest" />
-        <item itemvalue="JUnit.SlodyczTest.renameNullOpisTest" />
+        <item itemvalue="JUnit.BazaSlodyczyStoryTest" />
+        <item itemvalue="JUnit.CucumberRunnerTest" />
+        <item itemvalue="JUnit.SlodyczMockTest.insert_slodycz_with_timestamp_test" />
+        <item itemvalue="JUnit.BazaSlodyczyStoryTest" />
+        <item itemvalue="JUnit.BazaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -376,59 +423,70 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d0e29a1d-7609-4176-9c63-5f9cc0773c2d" name="Default Changelist" comment="" />
-      <created>1570349806999</created>
+      <changelist id="1ffe4694-ca50-4bbc-b9a6-745ab2711116" name="Default Changelist" comment="" />
+      <created>1573069533029</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570349806999</updated>
-      <workItem from="1570349813389" duration="7672000" />
-      <workItem from="1570462805614" duration="2619000" />
-      <workItem from="1571763347996" duration="7142000" />
-      <workItem from="1571845155456" duration="8339000" />
-      <workItem from="1571936001505" duration="7821000" />
+      <updated>1573069533029</updated>
+      <workItem from="1573069537503" duration="3485000" />
+      <workItem from="1573145828914" duration="10092000" />
+      <workItem from="1573156797062" duration="64000" />
+      <workItem from="1573156887466" duration="178000" />
+      <workItem from="1573157099158" duration="3097000" />
+      <workItem from="1573232533926" duration="2097000" />
+      <workItem from="1573234947364" duration="2807000" />
+      <workItem from="1573324026389" duration="4039000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SlodyczTest_renameNullOpisTest - 2019.10.24 at 20h 32m 00s.xml">
-      <configuration name="SlodyczTest.renameNullOpisTest" configurationId="JUnit" />
+    <history-entry file="BazaSlodyczyStory - 2019.11.09 at 19h 39m 13s.xml">
+      <configuration name="BazaSlodyczyStory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SlodyczTest_deleteAssertTest - 2019.10.24 at 20h 53m 31s.xml">
-      <configuration name="SlodyczTest.deleteAssertTest" configurationId="JUnit" />
+    <history-entry file="BazaSlodyczyStory - 2019.11.09 at 19h 39m 32s.xml">
+      <configuration name="BazaSlodyczyStory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SlodyczTest_deleteAssertTest - 2019.10.24 at 20h 54m 22s.xml">
-      <configuration name="SlodyczTest.deleteAssertTest" configurationId="JUnit" />
+    <history-entry file="BazaSlodyczyStory - 2019.11.09 at 19h 41m 10s.xml">
+      <configuration name="BazaSlodyczyStory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SlodyczMockTest_checkTimeofUpdateTest - 2019.10.24 at 20h 58m 01s.xml">
-      <configuration name="SlodyczMockTest.checkTimeofUpdateTest" configurationId="JUnit" />
+    <history-entry file="BazaSlodyczyStory - 2019.11.09 at 19h 41m 42s.xml">
+      <configuration name="BazaSlodyczyStory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SlodyczMockTest_checkLastReadTime - 2019.10.24 at 20h 59m 34s.xml">
-      <configuration name="SlodyczMockTest.checkLastReadTime" configurationId="JUnit" />
+    <history-entry file="BazaSlodyczyStory - 2019.11.09 at 19h 43m 38s.xml">
+      <configuration name="BazaSlodyczyStory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SlodyczMockTest_checkTimeofUpdateTest - 2019.10.24 at 21h 00m 58s.xml">
-      <configuration name="SlodyczMockTest.checkTimeofUpdateTest" configurationId="JUnit" />
+    <history-entry file="BazaSlodyczyStory - 2019.11.09 at 19h 46m 37s.xml">
+      <configuration name="BazaSlodyczyStory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SlodyczMockTest_checkLastReadTime - 2019.10.24 at 21h 01m 02s.xml">
-      <configuration name="SlodyczMockTest.checkLastReadTime" configurationId="JUnit" />
+    <history-entry file="BazaSlodyczyStory - 2019.11.09 at 19h 54m 58s.xml">
+      <configuration name="BazaSlodyczyStory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SlodyczMockTest_checkLastReadTime - 2019.10.24 at 21h 02m 51s.xml">
-      <configuration name="SlodyczMockTest.checkLastReadTime" configurationId="JUnit" />
+    <history-entry file="BazaSlodyczyStory - 2019.11.09 at 20h 02m 01s.xml">
+      <configuration name="BazaSlodyczyStory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SlodyczMockTest_checkLastReadTime - 2019.10.24 at 21h 03m 23s.xml">
-      <configuration name="SlodyczMockTest.checkLastReadTime" configurationId="JUnit" />
+    <history-entry file="BazaSlodyczyStory - 2019.11.09 at 20h 10m 38s.xml">
+      <configuration name="BazaSlodyczyStory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SlodyczMockTest_checkLastReadTimeForAll - 2019.10.24 at 21h 04m 52s.xml">
-      <configuration name="SlodyczMockTest.checkLastReadTimeForAll" configurationId="JUnit" />
+    <history-entry file="BazaSlodyczyStory - 2019.11.09 at 20h 29m 37s.xml">
+      <configuration name="BazaSlodyczyStory" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38588000" />
+    <option name="totallyTimeSpent" value="25859000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17643923" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -437,17 +495,19 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -458,37 +518,6 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.32936078" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -497,194 +526,209 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczTest.java</url>
-          <line>26</line>
+          <url>file://$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczMockTest.java</url>
+          <line>50</line>
           <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczTest.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczMockTest.java</url>
-          <line>15</line>
+          <line>73</line>
           <properties />
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczMockTest.java</url>
-          <line>51</line>
+          <url>file://$PROJECT_DIR$/src/test/java/baza/slodycz/JBehave/BazaStepsTest.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/baza/slodycz/JBehave/BazaStepsTest.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/baza/slodycz/JBehave/BazaStepsTest.java</url>
+          <line>76</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/baza/slodycz/BazaSlodyczy.java</url>
-          <line>54</line>
+          <url>file://$PROJECT_DIR$/src/test/java/baza/slodycz/JBehave/BazaStepsTest.java</url>
+          <line>80</line>
           <properties />
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczMockTest.java</url>
-          <line>70</line>
+          <url>file://$PROJECT_DIR$/src/test/java/baza/slodycz/JBehave/BazaStepsTest.java</url>
+          <line>84</line>
           <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczTest.java</url>
-          <line>13</line>
-          <properties class="baza.slodycz.SlodyczTest" method="createObjectTest">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczTest.java</url>
-          <line>137</line>
-          <properties class="baza.slodycz.SlodyczTest" method="deleteAssertTest">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczTest.java</url>
-          <line>56</line>
-          <properties class="baza.slodycz.SlodyczTest" method="getSingleObjectTest">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="((SlodyczMockTest)this).bazaSlodyczy" language="JAVA" custom="baza.slodycz.SlodyczMockTest" />
+        <watch expression="count" />
       </configuration>
     </watches-manager>
   </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>((SlodyczMockTest)this).bazaSlodyczy</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>baza.slodycz.SlodyczMockTest</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/baza/slodycze/SlodyczeBaza.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/allTest/allTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/runner/testRunner.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+    <entry file="file://$PROJECT_DIR$/target/jbehave-report/view/index.html" />
+    <entry file="file://$PROJECT_DIR$/target/jbehave/storyDurations.props">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+    <entry file="file://$PROJECT_DIR$/target/jbehave/BeforeStories.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+    <entry file="file://$PROJECT_DIR$/target/jbehave/BeforeStories.stats">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jbehave/jbehave-core/4.6/jbehave-core-4.6.jar!/org/jbehave/core/embedder/Embedder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1622" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="304" column="8" selection-start-line="304" selection-start-column="8" selection-end-line="304" selection-end-column="8" />
+        <state relative-caret-position="176">
+          <caret line="214" selection-start-line="214" selection-end-line="214" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-13/lib/src.zip!/java.base/java/util/ArrayList.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jbehave/jbehave-core/4.6/jbehave-core-4.6.jar!/org/jbehave/core/steps/AbstractStepsFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="424" column="16" selection-start-line="424" selection-start-column="16" selection-end-line="424" selection-end-column="16" />
+        <state relative-caret-position="181">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataBaseHelpers/TimeStampCollection.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jbehave/jbehave-core/4.6/jbehave-core-4.6.jar!/org/jbehave/core/junit/JUnitStories.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="6" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-13/lib/src.zip!/java.base/java/lang/IndexOutOfBoundsException.java">
+    <entry file="file://$PROJECT_DIR$/target/jbehave/AfterStories.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/jbehave/AfterStories.stats">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/jbehave/AfterStories.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/jbehave/BeforeStories.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-13/lib/src.zip!/java.base/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        <state relative-caret-position="176">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/baza/slodycz/Slodycz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-585">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#1500#1501#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-            <element signature="e#1601#1602#0" expanded="true" />
-            <element signature="e#1651#1652#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/baza/slodycz/BazaSlodyczyService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="132" column="23" lean-forward="true" selection-start-line="132" selection-start-column="23" selection-end-line="132" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1700">
+          <caret line="109" column="23" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/SlodyczeApp.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="646">
+          <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jbehave/jbehave-core/4.6/jbehave-core-4.6.jar!/org/jbehave/core/embedder/StoryManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="107" column="24" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/codecentric/jbehave-junit-runner/1.0.0/jbehave-junit-runner-1.0.0.jar!/de/codecentric/jbehave/junit/monitoring/JUnitReportingRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jbehave/jbehave-core/4.6/jbehave-core-4.6.jar!/org/jbehave/core/junit/JUnitStory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#876#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/baza/slodycz/BazaSlodyczy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="1190">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/baza/slodycz/CucumberStepsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/jbehave/baza.slodycz.JBehave.baza_slodyczy_story.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/jbehave/baza.slodycz.JBehave.baza_slodyczy_story.stats">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/jbehave/baza.slodycz.JBehave.baza_slodyczy_story.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/jbehave/baza.slodycz.JBehave.baza_slodyczy_story.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/baza/slodycz/JBehave/BazaStepsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -693,19 +737,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/baza/slodycz/SlodyczMockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="79" column="23" lean-forward="true" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+        <state relative-caret-position="187">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/baza_slodyczy.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/baza/slodycz/JBehave/BazaSlodyczyStoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+            <element signature="e#1366#1367#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/baza/slodycz/CucumberRunnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/baza/slodycz/JBehave/baza_slodyczy_story_test.story">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
@@ -720,6 +813,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>Spring (SlodyczeApp)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -742,6 +836,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>13</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -753,7 +848,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>TAU-12C-Repozytorium</last-edited>
+          <last-edited>SlodyczeApp</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -766,7 +861,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>9</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -778,6 +873,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: org.assertj:assertj-core:3.13.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

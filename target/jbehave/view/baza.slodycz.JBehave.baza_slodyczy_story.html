@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>baza.slodycz.JBehave.baza_slodyczy_story</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1></h1>
+<div class="path">baza/slodycz/JBehave/baza_slodyczy_story.story</div>
+<div class="scenario">
+<h2>Scenario: Find candy by id</h2>
+<div class="step successful">Given an id equals <span class="step parameter">2</span></div>
+<div class="step successful">When the item with id <span class="step parameter">2</span> is added</div>
+<div class="step successful">Then check is in list with id equals <span class="step parameter">2</span></div>
+</div>
+<div class="scenario">
+<h2>Scenario: Find candy by Name</h2>
+<div class="step successful">Given an Name equals <span class="step parameter">Czekolada</span></div>
+<div class="step successful">When the item with name <span class="step parameter">Czekolada</span> is added</div>
+<div class="step successful">Then check is in list with name <span class="step parameter">Czekolada</span></div>
+</div>
+<div class="scenario">
+<h2>Scenario: Find candy by Description</h2>
+<div class="step successful">Given an Description equals <span class="step parameter">Slodka</span></div>
+<div class="step successful">When the item with description <span class="step parameter">Slodka</span> is added</div>
+<div class="step successful">Then check is in list with description <span class="step parameter">Slodka</span></div>
+</div>
+<div class="scenario">
+<h2>Scenario: Add items to list and delete it</h2>
+<div class="step successful">Given Create database:
+<span class="step parameter"><table>
+<thead>
+<tr>
+<th>id</th><th>name</th><th>description</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td><td>Czekolada</td><td>Slodka</td></tr>
+<tr>
+<td>2</td><td>Baton</td><td>Pawelek</td></tr>
+<tr>
+<td>3</td><td>Lizak</td><td>CzupaCzups</td></tr>
+</tbody>
+</table>
+</span></div>
+<div class="step successful">When <span class="step parameter">3</span> items in database</div>
+<div class="step successful">And Items are deleted</div>
+<div class="step successful">Then table is empty</div>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

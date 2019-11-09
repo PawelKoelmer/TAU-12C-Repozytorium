@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>baza.slodycz.JBehave.baza_slodyczy_story</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="baza/slodycz/JBehave/baza_slodyczy_story.story" title="">
+<scenario keyword="Scenario:" title="Find candy by id">
+<step outcome="successful">Given an id equals <parameter>2</parameter></step>
+<step outcome="successful">When the item with id <parameter>2</parameter> is added</step>
+<step outcome="successful">Then check is in list with id equals <parameter>2</parameter></step>
+</scenario>
+<scenario keyword="Scenario:" title="Find candy by Name">
+<step outcome="successful">Given an Name equals <parameter>Czekolada</parameter></step>
+<step outcome="successful">When the item with name <parameter>Czekolada</parameter> is added</step>
+<step outcome="successful">Then check is in list with name <parameter>Czekolada</parameter></step>
+</scenario>
+<scenario keyword="Scenario:" title="Find candy by Description">
+<step outcome="successful">Given an Description equals <parameter>Slodka</parameter></step>
+<step outcome="successful">When the item with description <parameter>Slodka</parameter> is added</step>
+<step outcome="successful">Then check is in list with description <parameter>Slodka</parameter></step>
+</scenario>
+<scenario keyword="Scenario:" title="Add items to list and delete it">
+<step outcome="successful">Given Create database:
+<parameter><parameters>
+<names><name>id</name><name>name</name><name>description</name></names>
+<values><value>1</value><value>Czekolada</value><value>Slodka</value></values>
+<values><value>2</value><value>Baton</value><value>Pawelek</value></values>
+<values><value>3</value><value>Lizak</value><value>CzupaCzups</value></values>
+</parameters>
+</parameter></step>
+<step outcome="successful">When <parameter>3</parameter> items in database</step>
+<step outcome="successful">And Items are deleted</step>
+<step outcome="successful">Then table is empty</step>
+</scenario>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

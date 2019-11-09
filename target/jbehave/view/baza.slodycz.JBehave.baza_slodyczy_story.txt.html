@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>baza.slodycz.JBehave.baza_slodyczy_story</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: txt"><![CDATA[
+
+(baza/slodycz/JBehave/baza_slodyczy_story.story)
+Scenario: Find candy by id
+Given an id equals 2
+When the item with id 2 is added
+Then check is in list with id equals 2
+
+Scenario: Find candy by Name
+Given an Name equals Czekolada
+When the item with name Czekolada is added
+Then check is in list with name Czekolada
+
+Scenario: Find candy by Description
+Given an Description equals Slodka
+When the item with description Slodka is added
+Then check is in list with description Slodka
+
+Scenario: Add items to list and delete it
+Given Create database:
+
+|id|name|description|
+|1|Czekolada|Slodka|
+|2|Baton|Pawelek|
+|3|Lizak|CzupaCzups|
+
+When 3 items in database
+And Items are deleted
+Then table is empty
+
+
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

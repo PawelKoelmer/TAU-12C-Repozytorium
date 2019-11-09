@@ -3,6 +3,7 @@ package baza.slodycz;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class BazaSlodyczy implements BazaSlodyczyService{
 
 
@@ -18,15 +19,16 @@ public class BazaSlodyczy implements BazaSlodyczyService{
 
     @Override
     public Slodycz getSingle(int id) {
-            for (Slodycz x: slodycze) {
-                if(x.getId() == id){
-                    x.setReadTimestamp();
-                    return x;
-                }
-            }
-        return null;
 
+        slodycz = slodycze.stream().filter(s->s.getId() ==id).findAny().orElse(null);
+        slodycz.setReadTimestamp();
+        return slodycz ;
+    }
 
+    public Slodycz getSingle_byName(String name) {
+        slodycz = slodycze.stream().filter(s -> s.getNazwa().equals(name)).findAny().orElse(null);
+        slodycz.setReadTimestamp();
+        return slodycz;
     }
 
     @Override
@@ -63,5 +65,11 @@ public class BazaSlodyczy implements BazaSlodyczyService{
         slodycz = getSingle(id);
         slodycz.setUpdateTimestamp();
         slodycz.setOpis(newOpis);
+    }
+
+    public Slodycz getSingle_byDescription(String description) {
+        slodycz = slodycze.stream().filter(s -> s.getOpis().equals(description)).findAny().orElse(null);
+        slodycz.setReadTimestamp();
+        return slodycz;
     }
 }

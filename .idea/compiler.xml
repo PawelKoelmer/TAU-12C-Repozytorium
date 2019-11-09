@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TAU-12C-Repozytorium" />
+        <module name="SlodyczeApp" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SlodyczeApp" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
