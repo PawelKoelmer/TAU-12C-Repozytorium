@@ -16,6 +16,7 @@ public class SlodyczManagerImpl implements SlodyczManager {
     private PreparedStatement getSlodyczStatement;
     private PreparedStatement updateSlodyczStatement;
     private PreparedStatement deleteAllSlodyczStatement;
+    private PreparedStatement dropTableSlodyczStatement;
 
 
     public SlodyczManagerImpl(Connection connection) throws SQLException{
@@ -59,7 +60,7 @@ public class SlodyczManagerImpl implements SlodyczManager {
             return false;
         }
     }
-    
+
     @Override
     public Connection getConnection() {
         return connection;
@@ -68,9 +69,7 @@ public class SlodyczManagerImpl implements SlodyczManager {
     @Override
     public void setConnection(Connection connection) throws SQLException {
             this.connection = connection;
-        addSlodyczStatement = connection.prepareStatement(
-                "INSERT INTO slodycz (name, description) VALUES (?, ?)",
-                Statement.RETURN_GENERATED_KEYS);
+        dropTableSlodyczStatement = connection.prepareStatement("Drop table slodycze");
         deleteSlodyczStatement = connection.prepareStatement("DELETE FROM slodycze where id = ?");
         deleteAllSlodyczStatement = connection.prepareStatement("DELETE FROM slodycze");
         getAllSlodyczStatement = connection.prepareStatement("SELECT id, name, description FROM slodycze ORDER BY id");
@@ -162,4 +161,10 @@ public class SlodyczManagerImpl implements SlodyczManager {
             throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
         }
     }
+
+    @Override
+    public void dropTable() throws SQLException{
+        dropTableSlodyczStatement.executeUpdate();
+    }
+
 }
