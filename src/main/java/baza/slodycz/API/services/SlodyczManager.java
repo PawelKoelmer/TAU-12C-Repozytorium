@@ -1,6 +1,6 @@
-package baza.slodycz.API.service;
+package baza.slodycz.api.services;
 
-import baza.slodycz.Slodycz;
+import baza.slodycz.api.domain.Slodycz;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -13,9 +13,9 @@ public interface SlodyczManager {
     //CRUD
     public void deleteSlodycz(int id);
     public void addSlodycz(Slodycz slodycz);
-    public Slodycz getSlodycz(int id) throws SQLException;
+    public Slodycz getSlodycz(int id);
     public List<Slodycz> getAllSlodycz();
-    public void updateSlodycz(Slodycz slodycz) throws SQLException;
+    public void updateSlodycz(Slodycz slodycz, int id);
     public void deleteAllSlodycz();
     public void dropTable() throws SQLException;
 

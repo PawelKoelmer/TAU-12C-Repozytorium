@@ -1,4 +1,4 @@
-package baza.slodycz;
+package baza.slodycz.api.domain;
 
 import java.time.Clock;
 import java.time.LocalDateTime;
@@ -20,6 +20,11 @@ public class Slodycz {
         this.id =i;
         this.nazwa = nazwa;
         this.opis = opis;
+    }
+
+    public Slodycz(String name, String description){
+        this.nazwa = name;
+        this.opis = description;
     }
 
     public Slodycz() {

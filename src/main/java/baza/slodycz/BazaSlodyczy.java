@@ -1,5 +1,7 @@
 package baza.slodycz;
 
+import baza.slodycz.api.domain.Slodycz;
+
 import java.util.ArrayList;
 import java.util.List;
 

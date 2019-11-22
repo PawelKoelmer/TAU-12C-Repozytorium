@@ -1,7 +1,7 @@
 package baza.slodycz.JBehave;
 
 import baza.slodycz.BazaSlodyczy;
-import baza.slodycz.Slodycz;
+import baza.slodycz.api.domain.Slodycz;
 import org.jbehave.core.annotations.*;
 import org.jbehave.core.model.ExamplesTable;
 import org.jbehave.core.steps.Parameters;

@@ -1,4 +1,4 @@
-package baza.slodycz.configuration;
+package baza.slodycz.api.configuration;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import java.util.List;
 
 @Configuration
-@EnableWebMvc // tak jak w XML: <mvc:annotation-driven />
+@EnableWebMvc
 @ComponentScan({"baza.slodycz"})
 public class RestConfiguration extends WebMvcConfigurerAdapter {
     @Override

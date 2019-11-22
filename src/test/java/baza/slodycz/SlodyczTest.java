@@ -1,6 +1,6 @@
 package baza.slodycz;
 
-import junit.framework.AssertionFailedError;
+import baza.slodycz.api.domain.Slodycz;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;

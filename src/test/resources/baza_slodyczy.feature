@@ -2,16 +2,11 @@ Feature: As a user i need
         to search items
         on the list.
 
-
-
-
 @SearchByName
 Scenario: Search by Name
         Given An Name
         When Search by name "Czekolada"
         Then Name should be in list
-
-
 
 @SearchById
 Scenario: Search by id

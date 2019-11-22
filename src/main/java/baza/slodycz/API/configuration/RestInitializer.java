@@ -1,4 +1,4 @@
-package baza.slodycz.configuration;
+package baza.slodycz.api.configuration;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;
@@ -26,7 +26,7 @@ public class RestInitializer implements WebApplicationInitializer {
     }
     private AnnotationConfigWebApplicationContext getContext() {
         AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
-        context.setConfigLocation("baza.slodycz.configuration");
+        context.setConfigLocation("baza.slodycz.api.configuration");
         return context;
     }
 }

@@ -1,6 +1,6 @@
 package baza.slodycz;
 
-import java.time.LocalDateTime;
+import baza.slodycz.api.domain.Slodycz;
 
 public interface BazaSlodyczyService {
     Slodycz getSingle(int id);
