@@ -16,7 +16,7 @@ import java.sql.SQLException;
 
 import static org.junit.Assert.*;
 
-public class ApiTest {
+public class DatabaseTest {
 
     SlodyczManager slodyczManager;
     Slodycz slodycz;
@@ -29,11 +29,15 @@ public class ApiTest {
         String csvSplitBy =",";
         BufferedReader br;
         try {
+            int count = 0;
             br = new BufferedReader(new FileReader((csvFile)));
             while((line = br.readLine())!=null){
-                String[] slodyczParameters = line.split(csvSplitBy);
-                slodycz = new Slodycz(slodyczParameters[0],slodyczParameters[1]);
-                slodyczManager.addSlodycz(slodycz);
+                if(count>0){
+                    String[] slodyczParameters = line.split(csvSplitBy);
+                    slodycz = new Slodycz(slodyczParameters[0],slodyczParameters[1]);
+                    slodyczManager.addSlodycz(slodycz);
+                }
+             count++;
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();

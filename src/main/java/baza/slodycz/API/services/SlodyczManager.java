@@ -16,7 +16,7 @@ public interface SlodyczManager {
     public Slodycz getSlodycz(int id);
     public List<Slodycz> getAllSlodycz();
     public void updateSlodycz(Slodycz slodycz, int id);
-    public void deleteAllSlodycz();
+    void createTable() throws SQLException;
     public void dropTable() throws SQLException;
 
 }

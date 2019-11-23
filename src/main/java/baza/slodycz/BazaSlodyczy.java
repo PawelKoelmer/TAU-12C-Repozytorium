@@ -21,7 +21,6 @@ public class BazaSlodyczy implements BazaSlodyczyService{
 
     @Override
     public Slodycz getSingle(int id) {
-
         slodycz = slodycze.stream().filter(s->s.getId() ==id).findAny().orElse(null);
         slodycz.setReadTimestamp();
         return slodycz ;

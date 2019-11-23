@@ -2,9 +2,11 @@ package baza.slodycz.api.web;
 
 import baza.slodycz.api.domain.Slodycz;
 import baza.slodycz.api.services.SlodyczManager;
+import baza.slodycz.api.services.SlodyczManagerImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.sql.SQLException;
 import java.util.List;
 
 
@@ -16,6 +18,11 @@ public class SlodyczeApi {
 
     @RequestMapping("/")
     public String index() {
+        try {
+            slodyczManager.createTable();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
         return "Dziala";
     }
 
@@ -24,10 +31,12 @@ public class SlodyczeApi {
     public Slodycz getSlodycz(@PathVariable("id") int id)  {
         return slodyczManager.getSlodycz(id);
     }
+
     @GetMapping("/slodycze")
     public List<Slodycz> getSlodycze()  {
         return slodyczManager.getAllSlodycz();
     }
+
     @PutMapping(value = "/slodycz",
             params = {"name","des"}
     )
@@ -43,8 +52,9 @@ public class SlodyczeApi {
         slodyczManager.updateSlodycz(new Slodycz(name,desc), id);
     }
 
-    @DeleteMapping("/slodycze/{id}")
-    void deleteSlodycz(@PathVariable int id) {
+    @DeleteMapping(value = "/slodycze/",
+    params = {"id"})
+    void deleteSlodycz(@RequestParam("id") int id) {
         slodyczManager.deleteSlodycz(id);
     }
 
